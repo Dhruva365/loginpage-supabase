@@ -143,26 +143,6 @@ export default function LoginPage() {
           </FormControl>
         </Card>
       </Flex>
-      {/* <h1>Login Page</h1>
-      <input
-        type="text"
-        placeholder="Enter your Username"
-        value={obj.name}
-        onChange={(e) => {
-          setObj({ ...obj, name: e.target.value });
-        }}
-      />
-      <br />
-      <input
-        type="password"
-        placeholder="Enter your Password"
-        value={obj.pass}
-        onChange={(e) => {
-          setObj({ ...obj, pass: e.target.value });
-        }}
-      />
-      <br />
-      <button onClick={onClickHandle}>Submit</button> */}
     </>
   );
 }
